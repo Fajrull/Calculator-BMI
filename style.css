@@ -7,15 +7,24 @@ body {
 }
 
 section.content {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 32px;
+  border: 1px solid rgb(106, 106, 219);
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px 3px rgb(122, 122, 247);
 }
 
 section.content .content-start h1 {
   text-align: center;
+  color: blue;
+  opacity: 70%;
 }
 
 section.content .content-center {
